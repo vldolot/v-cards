@@ -1,0 +1,28 @@
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%; }
+
+html, body, #root {
+  height: 100%;
+  width: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #ccc; }
+
+.main-view {
+  height: 100%;
+  width: 100%; }
+  .main-view .navigation {
+    height: 2em;
+    line-height: 2em;
+    margin: 0 1em 0 0; }
+    .main-view .navigation .nav-link {
+      padding-left: 1em; }
+  .main-view .main-content {
+    height: 93vh;
+    width: 100%; }
